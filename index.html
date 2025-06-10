@@ -1,0 +1,2145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Pet Care - Complete Pet Wellness Solutions</title>
+ <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="paws.png" alt="Purrfect Pet Care Logo">
+                    <span class="logo-text">Purrfect Pet Care</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="active">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#about">About Us</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#" id="login-btn">Login</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#about">About Us</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <a href="#" id="mobile-login-btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Complete Care for Your Furry Family</h1>
+                <p>From routine checkups to emergency care, we provide compassionate veterinary services tailored to your pet's unique needs.</p>
+                <div>
+                    <a href="#appointment-modal" class="btn" id="book-appointment-btn">Book an Appointment</a>
+                    <a href="#services" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Comprehensive Services</h2>
+                <p>We offer a full range of veterinary services to keep your pets healthy and happy at every stage of life.</p>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <img src="cats.webp" alt="Wellness Exams" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Wellness Exams</h3>
+                        <p>Regular check-ups are the foundation of preventive care. Our comprehensive wellness exams include:</p>
+                        <ul style="margin-top: 10px; padding-left: 20px;">
+                            <li>Complete physical examination</li>
+                            <li>Weight and nutrition assessment</li>
+                            <li>Dental evaluation</li>
+                            <li>Parasite prevention</li>
+                            <li>Customized vaccination plan</li>
+                        </ul>
+                        <p style="margin-top: 10px;">Annual exams help us detect potential health issues before they become serious problems.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <img src="catwellness.avif" alt="Cat Wellness Exam" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Feline Wellness</h3>
+                        <p>Specialized care for your feline friends. Our cat wellness services include:</p>
+                        <ul style="margin-top: 10px; padding-left: 20px;">
+                            <li>Comprehensive physical exam</li>
+                            <li>Feline-specific vaccinations</li>
+                            <li>Nutrition counseling</li>
+                            <li>Behavioral assessment</li>
+                            <li>Senior cat health screening</li>
+                        </ul>
+                        <p style="margin-top: 10px;">We understand the unique needs of cats and provide stress-free examinations.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <img src="dental.avif" alt="Dental Care" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Dental Care</h3>
+                        <p>Professional cleanings and treatments to maintain your pet's oral health. Our dental services include:</p>
+                        <ul style="margin-top: 10px; padding-left: 20px;">
+                            <li>Dental exams and cleanings</li>
+                            <li>Tooth extractions</li>
+                            <li>Oral surgery</li>
+                            <li>Dental X-rays</li>
+                            <li>Home care instructions</li>
+                        </ul>
+                        <p style="margin-top: 10px;">Good dental health is essential for your pet's overall wellbeing and can add years to their life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing" style="background-color: var(--white);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Service Pricing</h2>
+                <p>Transparent and competitive pricing for all our veterinary services.</p>
+            </div>
+            
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic Wellness Exam</td>
+                        <td>Comprehensive physical examination for your pet</td>
+                        <td class="price">KSh 2,500</td>
+                    </tr>
+                    <tr>
+                        <td>Feline Wellness Package</td>
+                        <td>Complete exam and core vaccinations for cats</td>
+                        <td class="price">KSh 4,000</td>
+                    </tr>
+                    <tr>
+                        <td>Canine Wellness Package</td>
+                        <td>Complete exam and core vaccinations for dogs</td>
+                        <td class="price">KSh 4,500</td>
+                    </tr>
+                    <tr>
+                        <td>Dental Cleaning</td>
+                        <td>Professional teeth cleaning and polish</td>
+                        <td class="price">KSh 6,000</td>
+                    </tr>
+                    <tr>
+                        <td>Vaccinations (per vaccine)</td>
+                        <td>Rabies, distemper, leukemia, etc.</td>
+                        <td class="price">KSh 1,200 - 1,800</td>
+                    </tr>
+                    <tr>
+                        <td>Microchipping</td>
+                        <td>Permanent identification for your pet</td>
+                        <td class="price">KSh 3,500</td>
+                    </tr>
+                    <tr>
+                        <td>Spay/Neuter</td>
+                        <td>Surgical sterilization procedure</td>
+                        <td class="price">KSh 8,000 - 12,000</td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Visit</td>
+                        <td>After-hours emergency consultation</td>
+                        <td class="price">KSh 3,500</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p style="text-align: center; margin-top: 20px; color: var(--grey);">
+                *Prices are subject to change based on pet's size, age, and specific needs. Contact us for exact pricing.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Purrfect Pet Care?</h2>
+                <p>We're committed to providing exceptional care with a personal touch.</p>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <i class="fas fa-user-md" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 15px;"></i>
+                        <h3>Experienced Veterinarians</h3>
+                        <p>Our team of licensed veterinarians has over 50 years of combined experience treating all types of pets. We stay current with the latest advancements in veterinary medicine through ongoing education and training.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <i class="fas fa-heart" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 15px;"></i>
+                        <h3>Compassionate Care</h3>
+                        <p>We treat every pet as if they were our own, with kindness, patience, and understanding. Our fear-free approach minimizes stress for your pet during visits.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <i class="fas fa-clock" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 15px;"></i>
+                        <h3>Flexible Scheduling</h3>
+                        <p>We offer extended hours and weekend appointments to accommodate your busy schedule. Same-day appointments available for urgent concerns.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pet Types Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pets We Care For</h2>
+                <p>We provide specialized care for all types of companion animals.</p>
+            </div>
+            <div class="pet-types">
+                <div class="pet-type">
+                    <div class="pet-icon">
+                        <img src="dogicon.png" alt="Dogs" loading="lazy">
+                    </div>
+                    <h3>Dogs</h3>
+                    <p>From puppies to seniors, we provide complete care for your canine companions including breed-specific health management.</p>
+                </div>
+                <div class="pet-type">
+                    <div class="pet-icon">
+                        <img src="caticon.png" alt="Cats" loading="lazy">
+                    </div>
+                    <h3>Cats</h3>
+                    <p>Specialized feline care in a low-stress environment for your kitty, including preventive care and chronic condition management.</p>
+                </div>
+                <div class="pet-type">
+                    <div class="pet-icon">
+                        <img src="birdicon.webp" alt="Birds" loading="lazy">
+                    </div>
+                    <h3>Birds</h3>
+                    <p>Avian expertise to keep your feathered friends healthy and happy with specialized diagnostics and treatments.</p>
+                </div>
+                <div class="pet-type">
+                    <div class="pet-icon">
+                        <img src="smallicon.png" alt="Small Animals" loading="lazy">
+                    </div>
+                    <h3>Small Animals</h3>
+                    <p>Special care for rabbits, guinea pigs, hamsters, and other small pets with species-specific knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Pet Parents Say</h2>
+                <p>Don't just take our word for it - hear from our happy clients.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p class="testimonial-text">"The team at Purrfect Pet Care saved my dog's life when he ate chocolate. Their quick response and expert care made all the difference! I can't thank them enough for their compassion and professionalism during that scary time."</p>
+                    <p class="testimonial-author">- Sarah J., Dog Mom</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"We've been bringing our cats here for years. The vets take the time to explain everything and never rush us through appointments. They even helped us manage our senior cat's diabetes with a customized treatment plan."</p>
+                    <p class="testimonial-author">- Michael T., Cat Dad</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"As a first-time bird owner, I was nervous about finding the right vet. Purrfect Pet Care's avian specialist was incredibly knowledgeable and helped me understand exactly how to care for my parrot. Their follow-up care is exceptional."</p>
+                    <p class="testimonial-author">- Amina K., Bird Lover</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background-color: var(--teal); color: var(--white);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ready to Give Your Pet the Best Care?</h2>
+                <p>Schedule an appointment today and experience the Purrfect Pet Care difference.</p>
+                <div style="margin-top: 30px;">
+                    <a href="#appointment-modal" class="btn" style="background-color:var(--orange); border-color: var(--orange);">Book Now</a>
+                    <a href="tel:+254792002230" class="btn btn-outline">Call Us: +254 792 002 230</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Purrfect Pet Care</h3>
+                    <p>Providing compassionate veterinary care for your furry, feathered, and scaled family members since 2025.</p>
+                    <div class="social-links" style="margin-top: 15px;">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Wellness Exams</a></li>
+                        <li><a href="#">Vaccinations</a></li>
+                        <li><a href="#">Dental Care</a></li>
+                        <li><a href="#">Surgery</a></li>
+                        <li><a href="#">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Moi Avenue, Nairobi</li>
+                        <li><i class="fas fa-phone"></i> +254 792 002 230</li>
+                        <li><i class="fas fa-envelope"></i> info@purrfectpetcare.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8am-7pm, Sat: 9am-4pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Purrfect Pet Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="tabs">
+                <div class="tab active" data-tab="login">Login</div>
+                <div class="tab" data-tab="register">Register</div>
+            </div>
+            
+            <!-- Login Form -->
+            <div class="tab-content active" id="login-tab">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="login-email" required>
+                        <span class="error-message" id="email-error">Please enter a valid email</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="login-password" required>
+                        <button type="button" class="password-toggle" id="password-toggle">
+                            <i class="far fa-eye"></i>
+                        </button>
+                        <span class="error-message" id="password-error">Password must be at least 6 characters</span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn" style="width: 100%;" id="login-submit-btn">
+                            <span id="login-btn-text">Login</span>
+                            <span id="login-spinner" class="spinner" style="display: none;"></span>
+                        </button>
+                    </div>
+                    <div class="form-group" style="text-align: center; margin-top: 15px;">
+                        <a href="#" id="forgot-password-link" style="color: var(--orange);">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Registration Form -->
+            <div class="tab-content" id="register-tab">
+                <form id="register-form">
+                    <div class="form-group">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="register-name" required>
+                        <span class="error-message">Please enter your name</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="register-email" required>
+                        <span class="error-message">Please enter a valid email</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="register-phone">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="register-password" required minlength="6">
+                        <button type="button" class="password-toggle" id="register-password-toggle">
+                            <i class="far fa-eye"></i>
+                        </button>
+                        <span class="error-message">Password must be at least 6 characters</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="register-confirm-password" required>
+                        <button type="button" class="password-toggle" id="register-confirm-password-toggle">
+                            <i class="far fa-eye"></i>
+                        </button>
+                        <span class="error-message">Passwords must match</span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn" style="width: 100%;" id="register-submit-btn">
+                            <span id="register-btn-text">Register</span>
+                            <span id="register-spinner" class="spinner" style="display: none;"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal" id="forgot-password-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Reset Password</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="forgot-password-form">
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="reset-email" required>
+                    <span class="error-message" id="reset-email-error">Please enter a valid email</span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;" id="reset-submit-btn">
+                        <span id="reset-btn-text">Send Reset Link</span>
+                        <span id="reset-spinner" class="spinner" style="display: none;"></span>
+                    </button>
+                </div>
+                <div class="form-group" style="text-align: center; margin-top: 15px;">
+                    <a href="#" id="back-to-login" style="color: var(--orange);">Back to Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Reset Token Verification Modal -->
+    <div class="modal" id="reset-token-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Verify Reset Code</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="reset-token-form">
+                <div class="form-group">
+                    <p style="margin-bottom: 15px;">We've sent a 6-digit code to your email. Please enter it below:</p>
+                    <div class="token-inputs">
+                        <input type="text" maxlength="1" class="token-input" data-index="0" required>
+                        <input type="text" maxlength="1" class="token-input" data-index="1" required>
+                        <input type="text" maxlength="1" class="token-input" data-index="2" required>
+                        <input type="text" maxlength="1" class="token-input" data-index="3" required>
+                        <input type="text" maxlength="1" class="token-input" data-index="4" required>
+                        <input type="text" maxlength="1" class="token-input" data-index="5" required>
+                    </div>
+                    <input type="hidden" id="full-token">
+                    <span class="error-message" id="token-error">Please enter a valid 6-digit code</span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;" id="verify-token-btn">
+                        <span id="verify-token-text">Verify Code</span>
+                        <span id="verify-token-spinner" class="spinner" style="display: none;"></span>
+                    </button>
+                </div>
+                <div class="form-group" style="text-align: center; margin-top: 15px;">
+                    <a href="#" id="resend-token" style="color: var(--orange);">Resend Code</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- New Password Modal -->
+    <div class="modal" id="new-password-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create New Password</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="new-password-form">
+                <input type="hidden" id="reset-user-id">
+                <div class="form-group">
+                    <label class="form-label">New Password</label>
+                    <input type="password" class="form-control" id="new-password" required minlength="6">
+                    <button type="button" class="password-toggle" id="new-password-toggle">
+                        <i class="far fa-eye"></i>
+                    </button>
+                    <span class="error-message">Password must be at least 6 characters</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Confirm New Password</label>
+                    <input type="password" class="form-control" id="confirm-new-password" required>
+                    <button type="button" class="password-toggle" id="confirm-new-password-toggle">
+                        <i class="far fa-eye"></i>
+                    </button>
+                    <span class="error-message">Passwords must match</span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;" id="new-password-submit-btn">
+                        <span id="new-password-btn-text">Reset Password</span>
+                        <span id="new-password-spinner" class="spinner" style="display: none;"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Reset Confirmation Modal -->
+    <div class="modal" id="reset-confirmation-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Password Changed!</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div style="padding: 20px; text-align: center;">
+                <i class="fas fa-check-circle" style="font-size: 3rem; color: var(--success); margin-bottom: 20px;"></i>
+                <p>Your password has been successfully updated.</p>
+                <p>You can now login with your new password.</p>
+                <button class="btn" style="margin-top: 20px;" id="close-reset-confirmation">Continue to Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Dashboard (Hidden by default) -->
+    <div id="dashboard" style="display: none;">
+        <div class="dashboard">
+            <div class="sidebar">
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="active" id="dashboard-overview"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li><a href="#" id="dashboard-pets"><i class="fas fa-paw"></i> My Pets</a></li>
+                    <li><a href="#" id="dashboard-appointments"><i class="fas fa-calendar-alt"></i> Appointments</a></li>
+                    <li><a href="#" id="dashboard-vaccinations"><i class="fas fa-syringe"></i> Vaccinations</a></li>
+                    <li><a href="#" id="dashboard-profile"><i class="fas fa-user"></i> Profile</a></li>
+                    <li><a href="#" id="dashboard-logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <!-- Overview Section -->
+                <div id="overview-section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Welcome Back, <span id="user-name">User</span>!</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Here's what's happening with your pets today.</p>
+                            
+                            <div class="stats">
+                                <div class="stat-card">
+                                    <h4 id="pet-count">0</h4>
+                                    <p>Pets Registered</p>
+                                </div>
+                                <div class="stat-card">
+                                    <h4 id="upcoming-appointments">0</h4>
+                                    <p>Upcoming Appointments</p>
+                                </div>
+                                <div class="stat-card">
+                                    <h4 id="due-vaccinations">0</h4>
+                                    <p>Due Vaccinations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Upcoming Appointments</h3>
+                            <button class="btn btn-sm" id="new-appointment-btn">New Appointment</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Pet</th>
+                                            <th>Purpose</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="appointments-table">
+                                        <tr>
+                                            <td colspan="5" style="text-align: center;">No upcoming appointments</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Vaccination Reminders</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Pet</th>
+                                            <th>Vaccination</th>
+                                            <th>Due Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="vaccinations-table">
+                                        <tr>
+                                            <td colspan="4" style="text-align: center;">No upcoming vaccinations</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pets Section -->
+                <div id="pets-section" style="display: none;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>My Pets</h3>
+                            <button class="btn btn-sm" id="add-pet-btn">Add Pet</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                            <th>Breed</th>
+                                            <th>Age</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="pets-list">
+                                        <tr>
+                                            <td colspan="5" style="text-align: center;">No pets registered</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Appointments Section -->
+                <div id="appointments-section" style="display: none;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Appointments</h3>
+                            <button class="btn btn-sm" id="add-appointment-btn">New Appointment</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Pet</th>
+                                            <th>Purpose</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="all-appointments-table">
+                                        <tr>
+                                            <td colspan="6" style="text-align: center;">No appointments scheduled</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Vaccinations Section -->
+                <div id="vaccinations-section" style="display: none;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Vaccination Records</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Pet</th>
+                                            <th>Vaccination</th>
+                                            <th>Last Given</th>
+                                            <th>Next Due</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="all-vaccinations-table">
+                                        <tr>
+                                            <td colspan="5" style="text-align: center;">No vaccination records</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Profile Section -->
+                <div id="profile-section" style="display: none;">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>My Profile</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="profile-form">
+                                <div class="form-group">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="profile-name-input" required>
+                                    <span class="error-message">Please enter your name</span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="profile-email-input" required>
+                                    <span class="error-message">Please enter a valid email</span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="profile-phone-input">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Address</label>
+                                    <textarea class="form-control" id="profile-address-input" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn" id="profile-submit-btn">
+                                        <span id="profile-btn-text">Update Profile</span>
+                                        <span id="profile-spinner" class="spinner" style="display: none;"></span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Pet Modal -->
+    <div class="modal" id="pet-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New Pet</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="pet-form">
+                <div class="form-group">
+                    <label class="form-label">Pet Name</label>
+                    <input type="text" class="form-control" id="pet-name" required>
+                    <span class="error-message">Please enter pet's name</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Type</label>
+                    <select class="form-control" id="pet-type" required>
+                        <option value="">Select Type</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="bird">Bird</option>
+                        <option value="rabbit">Rabbit</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="guinea pig">Guinea Pig</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message">Please select pet type</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Breed</label>
+                    <input type="text" class="form-control" id="pet-breed">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Age (years)</label>
+                    <input type="number" class="form-control" id="pet-age" min="0" max="30" step="0.5">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;" id="pet-submit-btn">
+                        <span id="pet-btn-text">Save</span>
+                        <span id="pet-spinner" class="spinner" style="display: none;"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Appointment Modal -->
+    <div class="modal" id="appointment-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Book Appointment</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="appointment-form">
+                <div class="form-group">
+                    <label class="form-label">Pet</label>
+                    <select class="form-control" id="appointment-pet" required>
+                        <option value="">Select Pet</option>
+                        <!-- Pet options will be added here by JavaScript -->
+                    </select>
+                    <span class="error-message">Please select a pet</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" id="appointment-date" required>
+                    <span class="error-message">Please select a date</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Time</label>
+                    <input type="time" class="form-control" id="appointment-time" required min="08:00" max="17:00">
+                    <span class="error-message">Please select a time between 8AM and 5PM</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Purpose</label>
+                    <select class="form-control" id="appointment-purpose" required>
+                        <option value="">Select Purpose</option>
+                        <option value="checkup">Regular Checkup</option>
+                        <option value="vaccination">Vaccination</option>
+                        <option value="grooming">Grooming</option>
+                        <option value="emergency">Emergency</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-message">Please select appointment purpose</span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Notes</label>
+                    <textarea class="form-control" id="appointment-notes" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn" style="width: 100%;" id="appointment-submit-btn">
+                        <span id="appointment-btn-text">Book Appointment</span>
+                        <span id="appointment-spinner" class="spinner" style="display: none;"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <form id="petForm">
+  <input type="text" name="name" placeholder="Pet Name" required>
+  <input type="text" name="species" placeholder="Species" required>
+  <input type="text" name="breed" placeholder="Breed">
+  <input type="number" name="age" placeholder="Age">
+  <input type="text" name="owner" placeholder="Owner Name">
+  <button type="submit">Add Pet</button>
+</form>
+
+    <script>
+        // Sample Data
+        let users = [
+            {
+                id: '1',
+                name: 'John Doe',
+                email: 'john@example.com',
+                password: 'password123',
+                phone: '0712345678',
+                address: '123 Main St, Nairobi'
+            }
+        ];
+        
+        let pets = [
+            {
+                id: '1',
+                ownerId: '1',
+                name: 'Max',
+                type: 'dog',
+                breed: 'German Shepherd',
+                age: 3
+            },
+            {
+                id: '2',
+                ownerId: '1',
+                name: 'Whiskers',
+                type: 'cat',
+                breed: 'Siamese',
+                age: 2
+            }
+        ];
+        
+        let appointments = [
+            {
+                id: '1',
+                ownerId: '1',
+                petId: '1',
+                date: '2023-06-15',
+                time: '10:00',
+                purpose: 'checkup',
+                notes: 'Annual wellness exam',
+                status: 'upcoming'
+            }
+        ];
+        
+        let vaccinations = [
+            {
+                id: '1',
+                petId: '1',
+                name: 'Rabies',
+                lastGiven: '2023-01-15',
+                nextDue: '2024-01-15',
+                status: 'upcoming'
+            }
+        ];
+        
+        // Password reset data
+        let passwordResetTokens = [];
+        let emailQueue = []; // Simulates sending emails
+        
+        // Load data from localStorage if available
+        function loadFromLocalStorage() {
+            const savedUsers = localStorage.getItem('petCareUsers');
+            const savedPets = localStorage.getItem('petCarePets');
+            const savedAppointments = localStorage.getItem('petCareAppointments');
+            const savedVaccinations = localStorage.getItem('petCareVaccinations');
+            const savedTokens = localStorage.getItem('petCareResetTokens');
+            
+            if (savedUsers) users = JSON.parse(savedUsers);
+            if (savedPets) pets = JSON.parse(savedPets);
+            if (savedAppointments) appointments = JSON.parse(savedAppointments);
+            if (savedVaccinations) vaccinations = JSON.parse(savedVaccinations);
+            if (savedTokens) passwordResetTokens = JSON.parse(savedTokens);
+        }
+        
+        // Save data to localStorage
+        function saveToLocalStorage() {
+            localStorage.setItem('petCareUsers', JSON.stringify(users));
+            localStorage.setItem('petCarePets', JSON.stringify(pets));
+            localStorage.setItem('petCareAppointments', JSON.stringify(appointments));
+            localStorage.setItem('petCareVaccinations', JSON.stringify(vaccinations));
+            localStorage.setItem('petCareResetTokens', JSON.stringify(passwordResetTokens));
+        }
+        
+        // DOM Elements
+        const loginModal = document.getElementById('login-modal');
+        const loginBtn = document.getElementById('login-btn');
+        const mobileLoginBtn = document.getElementById('mobile-login-btn');
+        const closeBtns = document.querySelectorAll('.close-btn');
+        const registerLink = document.getElementById('register-link');
+        const dashboard = document.getElementById('dashboard');
+        const dashboardLinks = {
+            overview: document.getElementById('dashboard-overview'),
+            pets: document.getElementById('dashboard-pets'),
+            appointments: document.getElementById('dashboard-appointments'),
+            vaccinations: document.getElementById('dashboard-vaccinations'),
+            profile: document.getElementById('dashboard-profile'),
+            logout: document.getElementById('dashboard-logout')
+        };
+        const dashboardSections = {
+            overview: document.getElementById('overview-section'),
+            pets: document.getElementById('pets-section'),
+            appointments: document.getElementById('appointments-section'),
+            vaccinations: document.getElementById('vaccinations-section'),
+            profile: document.getElementById('profile-section')
+        };
+        const petModal = document.getElementById('pet-modal');
+        const addPetBtn = document.getElementById('add-pet-btn');
+        const petForm = document.getElementById('pet-form');
+        const appointmentModal = document.getElementById('appointment-modal');
+        const addAppointmentBtn = document.getElementById('add-appointment-btn');
+        const newAppointmentBtn = document.getElementById('new-appointment-btn');
+        const appointmentForm = document.getElementById('appointment-form');
+        const appointmentPetSelect = document.getElementById('appointment-pet');
+        const profileForm = document.getElementById('profile-form');
+        const bookAppointmentBtn = document.getElementById('book-appointment-btn');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const passwordToggle = document.getElementById('password-toggle');
+        const loginPassword = document.getElementById('login-password');
+        const registerPasswordToggle = document.getElementById('register-password-toggle');
+        const registerConfirmPasswordToggle = document.getElementById('register-confirm-password-toggle');
+        const registerPassword = document.getElementById('register-password');
+        const registerConfirmPassword = document.getElementById('register-confirm-password');
+        const toast = document.getElementById('toast');
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        // Password reset elements
+        const forgotPasswordLink = document.getElementById('forgot-password-link');
+        const forgotPasswordModal = document.getElementById('forgot-password-modal');
+        const resetConfirmationModal = document.getElementById('reset-confirmation-modal');
+        const resetTokenModal = document.getElementById('reset-token-modal');
+        const newPasswordModal = document.getElementById('new-password-modal');
+        const forgotPasswordForm = document.getElementById('forgot-password-form');
+        const resetTokenForm = document.getElementById('reset-token-form');
+        const newPasswordForm = document.getElementById('new-password-form');
+        const backToLoginLink = document.getElementById('back-to-login');
+        const closeResetConfirmationBtn = document.getElementById('close-reset-confirmation');
+        const resendTokenLink = document.getElementById('resend-token');
+        
+        // Current User
+        let currentUser = null;
+        
+        // Initialize the app
+        function init() {
+            // Load data from localStorage
+            loadFromLocalStorage();
+            
+            // Check if user is logged in
+            const loggedInUserId = localStorage.getItem('petCareUserId');
+            if (loggedInUserId) {
+                currentUser = users.find(user => user.id === loggedInUserId);
+                if (currentUser) {
+                    showDashboard();
+                    loadDashboardData();
+                }
+            }
+            
+            // Set up event listeners
+            setupEventListeners();
+            
+            // Set minimum date for appointment date picker to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('appointment-date').min = today;
+        }
+        
+        // Set up event listeners
+        function setupEventListeners() {
+            // Login button
+            loginBtn.addEventListener('click', () => {
+                loginModal.classList.add('active');
+            });
+            
+            // Mobile login button
+            mobileLoginBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                loginModal.classList.add('active');
+            });
+            
+            // Book appointment button
+            bookAppointmentBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (currentUser) {
+                    openAppointmentModal();
+                } else {
+                    loginModal.classList.add('active');
+                    showToast('Please login to book an appointment', 'warning');
+                }
+            });
+            
+            // Close buttons
+            closeBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    loginModal.classList.remove('active');
+                    petModal.classList.remove('active');
+                    appointmentModal.classList.remove('active');
+                    forgotPasswordModal.classList.remove('active');
+                    resetTokenModal.classList.remove('active');
+                    newPasswordModal.classList.remove('active');
+                    resetConfirmationModal.classList.remove('active');
+                });
+            });
+            
+            // Dashboard navigation
+            Object.keys(dashboardLinks).forEach(key => {
+                dashboardLinks[key].addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    if (key === 'logout') {
+                        logout();
+                        return;
+                    }
+                    
+                    // Hide all sections
+                    Object.values(dashboardSections).forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    
+                    // Show selected section
+                    dashboardSections[key].style.display = 'block';
+                    
+                    // Update active link
+                    document.querySelector('.sidebar-menu a.active').classList.remove('active');
+                    dashboardLinks[key].classList.add('active');
+                    
+                    // Load data for the section
+                    if (key === 'pets') {
+                        loadPets();
+                    } else if (key === 'appointments') {
+                        loadAppointments();
+                    } else if (key === 'vaccinations') {
+                        loadVaccinations();
+                    } else if (key === 'profile') {
+                        loadProfile();
+                    }
+                });
+            });
+            
+            // Add pet button
+            addPetBtn.addEventListener('click', () => {
+                document.getElementById('pet-form').reset();
+                document.querySelector('#pet-modal .modal-header h3').textContent = 'Add New Pet';
+                document.getElementById('pet-btn-text').textContent = 'Save';
+                delete petForm.dataset.editId;
+                petModal.classList.add('active');
+            });
+            
+            // Add appointment buttons
+            addAppointmentBtn.addEventListener('click', openAppointmentModal);
+            newAppointmentBtn.addEventListener('click', openAppointmentModal);
+            
+            // Form submissions
+            petForm.addEventListener('submit', handlePetFormSubmit);
+            appointmentForm.addEventListener('submit', handleAppointmentFormSubmit);
+            profileForm.addEventListener('submit', handleProfileFormSubmit);
+            
+            // Login form submission
+            document.getElementById('login-form').addEventListener('submit', handleLogin);
+            
+            // Registration form submission
+            document.getElementById('register-form').addEventListener('submit', handleRegister);
+            
+            // Mobile menu toggle
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+            
+            // Password visibility toggle
+            passwordToggle.addEventListener('click', togglePasswordVisibility);
+            registerPasswordToggle.addEventListener('click', () => togglePasswordVisibility(registerPassword, registerPasswordToggle));
+            registerConfirmPasswordToggle.addEventListener('click', () => togglePasswordVisibility(registerConfirmPassword, registerConfirmPasswordToggle));
+            
+            // Tab switching
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const tabId = tab.getAttribute('data-tab');
+                    switchTab(tabId);
+                });
+            });
+            
+            // Close mobile menu when clicking a link
+            document.querySelectorAll('#mobile-menu .nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                });
+            });
+            
+            // Password reset event listeners
+            setupPasswordResetListeners();
+        }
+        
+        // Set up password reset event listeners
+        function setupPasswordResetListeners() {
+            // Forgot password event listeners
+            forgotPasswordLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                loginModal.classList.remove('active');
+                forgotPasswordModal.classList.add('active');
+            });
+            
+            backToLoginLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                forgotPasswordModal.classList.remove('active');
+                loginModal.classList.add('active');
+            });
+            
+            closeResetConfirmationBtn.addEventListener('click', () => {
+                resetConfirmationModal.classList.remove('active');
+                loginModal.classList.add('active');
+            });
+            
+            resendTokenLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                const email = document.getElementById('reset-email').value;
+                if (email) {
+                    sendResetToken(email);
+                }
+            });
+            
+            // Handle token input navigation
+            document.querySelectorAll('.token-input').forEach(input => {
+                input.addEventListener('input', function() {
+                    if (this.value.length === 1) {
+                        const nextIndex = parseInt(this.dataset.index) + 1;
+                        const nextInput = document.querySelector(`.token-input[data-index="${nextIndex}"]`);
+                        if (nextInput) nextInput.focus();
+                    }
+                    updateFullToken();
+                });
+                
+                input.addEventListener('keydown', function(e) {
+                    if (e.key === 'Backspace' && this.value.length === 0) {
+                        const prevIndex = parseInt(this.dataset.index) - 1;
+                        const prevInput = document.querySelector(`.token-input[data-index="${prevIndex}"]`);
+                        if (prevInput) prevInput.focus();
+                    }
+                    updateFullToken();
+                });
+            });
+            
+            // Handle forgot password form submission
+            forgotPasswordForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const email = document.getElementById('reset-email').value.trim();
+                
+                // Validation
+                if (!email) {
+                    showToast('Please enter your email address', 'error');
+                    return;
+                }
+                
+                // Show loading state
+                const resetBtnText = document.getElementById('reset-btn-text');
+                const resetSpinner = document.getElementById('reset-spinner');
+                resetBtnText.style.display = 'none';
+                resetSpinner.style.display = 'inline-block';
+                
+                // Check if email exists
+                setTimeout(() => {
+                    const userExists = users.some(user => user.email === email);
+                    
+                    if (userExists) {
+                        sendResetToken(email);
+                        forgotPasswordModal.classList.remove('active');
+                        resetTokenModal.classList.add('active');
+                    } else {
+                        showToast('No account found with that email address', 'error');
+                    }
+                    
+                    // Reset loading state
+                    resetBtnText.style.display = 'inline-block';
+                    resetSpinner.style.display = 'none';
+                }, 1000);
+            });
+            
+            // Handle token verification form submission
+            resetTokenForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const token = document.getElementById('full-token').value;
+                const email = document.getElementById('reset-email').value;
+                
+                // Show loading state
+                const verifyTokenText = document.getElementById('verify-token-text');
+                const verifyTokenSpinner = document.getElementById('verify-token-spinner');
+                verifyTokenText.style.display = 'none';
+                verifyTokenSpinner.style.display = 'inline-block';
+                
+                // Verify token
+                setTimeout(() => {
+                    const tokenRecord = passwordResetTokens.find(t => 
+                        t.email === email && t.token === token && t.expires > Date.now()
+                    );
+                    
+                    if (tokenRecord) {
+                        // Token is valid
+                        document.getElementById('reset-user-id').value = tokenRecord.userId;
+                        resetTokenModal.classList.remove('active');
+                        newPasswordModal.classList.add('active');
+                    } else {
+                        showToast('Invalid or expired verification code', 'error');
+                    }
+                    
+                    // Reset loading state
+                    verifyTokenText.style.display = 'inline-block';
+                    verifyTokenSpinner.style.display = 'none';
+                }, 800);
+            });
+            
+            // Handle new password form submission
+            newPasswordForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const userId = document.getElementById('reset-user-id').value;
+                const newPassword = document.getElementById('new-password').value;
+                const confirmPassword = document.getElementById('confirm-new-password').value;
+                
+                // Validation
+                if (newPassword.length < 6) {
+                    showToast('Password must be at least 6 characters', 'error');
+                    return;
+                }
+                
+                if (newPassword !== confirmPassword) {
+                    showToast('Passwords do not match', 'error');
+                    return;
+                }
+                
+                // Show loading state
+                const newPasswordBtnText = document.getElementById('new-password-btn-text');
+                const newPasswordSpinner = document.getElementById('new-password-spinner');
+                newPasswordBtnText.style.display = 'none';
+                newPasswordSpinner.style.display = 'inline-block';
+                
+                // Update password
+                setTimeout(() => {
+                    const userIndex = users.findIndex(u => u.id === userId);
+                    if (userIndex !== -1) {
+                        users[userIndex].password = newPassword;
+                        saveToLocalStorage();
+                        
+                        // Remove used tokens for this user
+                        passwordResetTokens = passwordResetTokens.filter(t => t.userId !== userId);
+                        
+                        newPasswordModal.classList.remove('active');
+                        resetConfirmationModal.classList.add('active');
+                    } else {
+                        showToast('Error updating password', 'error');
+                    }
+                    
+                    // Reset loading state
+                    newPasswordBtnText.style.display = 'inline-block';
+                    newPasswordSpinner.style.display = 'none';
+                }, 800);
+            });
+            
+            // Password toggle for new password fields
+            document.getElementById('new-password-toggle').addEventListener('click', () => {
+                togglePasswordVisibility(document.getElementById('new-password'), document.getElementById('new-password-toggle'));
+            });
+            
+            document.getElementById('confirm-new-password-toggle').addEventListener('click', () => {
+                togglePasswordVisibility(document.getElementById('confirm-new-password'), document.getElementById('confirm-new-password-toggle'));
+            });
+            
+            // Close modals when clicking outside
+            document.addEventListener('click', (e) => {
+                if (e.target.classList.contains('modal')) {
+                    loginModal.classList.remove('active');
+                    petModal.classList.remove('active');
+                    appointmentModal.classList.remove('active');
+                    forgotPasswordModal.classList.remove('active');
+                    resetTokenModal.classList.remove('active');
+                    newPasswordModal.classList.remove('active');
+                    resetConfirmationModal.classList.remove('active');
+                }
+            });
+        }
+        
+        // Helper function to update the full token from individual inputs
+        function updateFullToken() {
+            const tokenInputs = document.querySelectorAll('.token-input');
+            let fullToken = '';
+            tokenInputs.forEach(input => {
+                fullToken += input.value;
+            });
+            document.getElementById('full-token').value = fullToken;
+        }
+        
+        // Function to generate and send reset token
+        function sendResetToken(email) {
+            // Generate a 6-digit token
+            const token = Math.floor(100000 + Math.random() * 900000).toString();
+            const userId = users.find(u => u.email === email)?.id;
+            
+            if (!userId) return;
+            
+            // Create token record (expires in 1 hour)
+            const tokenRecord = {
+                email,
+                userId,
+                token,
+                expires: Date.now() + 3600000 // 1 hour
+            };
+            
+            // Remove any existing tokens for this user
+            passwordResetTokens = passwordResetTokens.filter(t => t.userId !== userId);
+            passwordResetTokens.push(tokenRecord);
+            saveToLocalStorage();
+            
+            // In a real app, you would send an email here
+            // For simulation, we'll just log it and add to our email queue
+            const emailContent = {
+                to: email,
+                subject: 'Password Reset Request',
+                body: `Your password reset code is: ${token}\n\nThis code will expire in 1 hour.`
+            };
+            
+            emailQueue.push(emailContent);
+            console.log('Password reset email sent:', emailContent);
+            
+            showToast('Reset code sent to your email', 'success');
+        }
+        
+        // Switch between login and register tabs
+        function switchTab(tabId) {
+            tabs.forEach(tab => {
+                if (tab.getAttribute('data-tab') === tabId) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+            
+            tabContents.forEach(content => {
+                if (content.id === `${tabId}-tab`) {
+                    content.classList.add('active');
+                } else {
+                    content.classList.remove('active');
+                }
+            });
+        }
+        
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle('active');
+            mobileMenuBtn.innerHTML = mobileMenu.classList.contains('active') ? 
+                '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        }
+        
+        // Toggle password visibility
+        function togglePasswordVisibility(inputElement = loginPassword, toggleElement = passwordToggle) {
+            const type = inputElement.getAttribute('type') === 'password' ? 'text' : 'password';
+            inputElement.setAttribute('type', type);
+            toggleElement.innerHTML = type === 'password' ? '<i class="far fa-eye"></i>' : '<i class="far fa-eye-slash"></i>';
+        }
+        
+        // Show dashboard
+        function showDashboard() {
+            document.querySelector('header').style.display = 'none';
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.querySelector('footer').style.display = 'none';
+            dashboard.style.display = 'block';
+        }
+        
+        // Load dashboard data
+        function loadDashboardData() {
+            if (!currentUser) return;
+            
+            // Set user name
+            document.getElementById('user-name').textContent = currentUser.name;
+            
+            // Count pets
+            const userPets = pets.filter(pet => pet.ownerId === currentUser.id);
+            document.getElementById('pet-count').textContent = userPets.length;
+            
+            // Count upcoming appointments
+            const today = new Date();
+            const upcomingAppts = appointments.filter(appt => {
+                return appt.ownerId === currentUser.id && new Date(appt.date) >= today;
+            });
+            document.getElementById('upcoming-appointments').textContent = upcomingAppts.length;
+            
+            // Count due vaccinations
+            const dueVaccs = vaccinations.filter(vacc => {
+                const pet = pets.find(p => p.id === vacc.petId);
+                return pet && pet.ownerId === currentUser.id && new Date(vacc.nextDue) >= today;
+            });
+            document.getElementById('due-vaccinations').textContent = dueVaccs.length;
+            
+            // Load recent appointments
+            loadRecentAppointments();
+        }
+        
+        // Load recent appointments
+        function loadRecentAppointments() {
+            const table = document.getElementById('appointments-table');
+            table.innerHTML = '';
+            
+            const userAppts = appointments
+                .filter(appt => appt.ownerId === currentUser.id)
+                .sort((a, b) => new Date(a.date) - new Date(b.date))
+                .slice(0, 5);
+            
+            if (userAppts.length === 0) {
+                table.innerHTML = '<tr><td colspan="5" style="text-align: center;">No upcoming appointments</td></tr>';
+                return;
+            }
+            
+            userAppts.forEach(appt => {
+                const pet = pets.find(p => p.id === appt.petId);
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${formatDate(appt.date)}</td>
+                    <td>${formatTime(appt.time)}</td>
+                    <td>${pet ? pet.name : 'Unknown'}</td>
+                    <td>${getAppointmentPurpose(appt.purpose)}</td>
+                    <td><span class="badge ${getAppointmentStatusClass(appt.date)}">${getAppointmentStatus(appt.date)}</span></td>
+                `;
+                
+                table.appendChild(row);
+            });
+        }
+        
+        // Load all pets
+        function loadPets() {
+            const table = document.getElementById('pets-list');
+            table.innerHTML = '';
+            
+            const userPets = pets.filter(pet => pet.ownerId === currentUser.id);
+            
+            if (userPets.length === 0) {
+                table.innerHTML = '<tr><td colspan="5" style="text-align: center;">No pets registered</td></tr>';
+                return;
+            }
+            
+            userPets.forEach(pet => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${pet.name}</td>
+                    <td>${capitalizeFirstLetter(pet.type)}</td>
+                    <td>${pet.breed || '-'}</td>
+                    <td>${pet.age || '-'}</td>
+                    <td>
+                        <button class="btn btn-sm" onclick="editPet('${pet.id}')">Edit</button>
+                        <button class="btn btn-sm" style="background-color: var(--danger);" onclick="deletePet('${pet.id}')">Delete</button>
+                    </td>
+                `;
+                
+                table.appendChild(row);
+            });
+        }
+        
+        // Load all appointments
+        function loadAppointments() {
+            const table = document.getElementById('all-appointments-table');
+            table.innerHTML = '';
+            
+            const userAppts = appointments
+                .filter(appt => appt.ownerId === currentUser.id)
+                .sort((a, b) => new Date(a.date) - new Date(b.date));
+            
+            if (userAppts.length === 0) {
+                table.innerHTML = '<tr><td colspan="6" style="text-align: center;">No appointments scheduled</td></tr>';
+                return;
+            }
+            
+            userAppts.forEach(appt => {
+                const pet = pets.find(p => p.id === appt.petId);
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${formatDate(appt.date)}</td>
+                    <td>${formatTime(appt.time)}</td>
+                    <td>${pet ? pet.name : 'Unknown'}</td>
+                    <td>${getAppointmentPurpose(appt.purpose)}</td>
+                    <td><span class="badge ${getAppointmentStatusClass(appt.date)}">${getAppointmentStatus(appt.date)}</span></td>
+                    <td>
+                        <button class="btn btn-sm" onclick="editAppointment('${appt.id}')">Edit</button>
+                        <button class="btn btn-sm" style="background-color: var(--danger);" onclick="deleteAppointment('${appt.id}')">Delete</button>
+                    </td>
+                `;
+                
+                table.appendChild(row);
+            });
+        }
+        
+        // Load all vaccinations
+        function loadVaccinations() {
+            const table = document.getElementById('all-vaccinations-table');
+            table.innerHTML = '';
+            
+            const userVaccs = vaccinations.filter(vacc => {
+                const pet = pets.find(p => p.id === vacc.petId);
+                return pet && pet.ownerId === currentUser.id;
+            }).sort((a, b) => new Date(a.nextDue) - new Date(b.nextDue));
+            
+            if (userVaccs.length === 0) {
+                table.innerHTML = '<tr><td colspan="5" style="text-align: center;">No vaccination records</td></tr>';
+                return;
+            }
+            
+            userVaccs.forEach(vacc => {
+                const pet = pets.find(p => p.id === vacc.petId);
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${pet ? pet.name : 'Unknown'}</td>
+                    <td>${vacc.name}</td>
+                    <td>${formatDate(vacc.lastGiven)}</td>
+                    <td>${formatDate(vacc.nextDue)}</td>
+                    <td><span class="badge ${getVaccinationStatusClass(vacc.nextDue)}">${getVaccinationStatus(vacc.nextDue)}</span></td>
+                `;
+                
+                table.appendChild(row);
+            });
+        }
+        
+        // Load profile data
+        function loadProfile() {
+            if (!currentUser) return;
+            
+            document.getElementById('profile-name-input').value = currentUser.name;
+            document.getElementById('profile-email-input').value = currentUser.email;
+            document.getElementById('profile-phone-input').value = currentUser.phone || '';
+            document.getElementById('profile-address-input').value = currentUser.address || '';
+        }
+        
+        // Open appointment modal
+        function openAppointmentModal() {
+            // Reset form
+            appointmentForm.reset();
+            document.querySelector('#appointment-modal .modal-header h3').textContent = 'Book Appointment';
+            document.getElementById('appointment-btn-text').textContent = 'Book Appointment';
+            delete appointmentForm.dataset.editId;
+            
+            // Set default date to tomorrow
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            document.getElementById('appointment-date').valueAsDate = tomorrow;
+            
+            // Set default time to 10:00 AM
+            document.getElementById('appointment-time').value = '10:00';
+            
+            // Populate pet dropdown
+            appointmentPetSelect.innerHTML = '<option value="">Select Pet</option>';
+            const userPets = pets.filter(pet => pet.ownerId === currentUser.id);
+            
+            if (userPets.length === 0) {
+                showToast('Please add a pet first', 'warning');
+                petModal.classList.add('active');
+                appointmentModal.classList.remove('active');
+                return;
+            }
+            
+            userPets.forEach(pet => {
+                const option = document.createElement('option');
+                option.value = pet.id;
+                option.textContent = pet.name;
+                appointmentPetSelect.appendChild(option);
+            });
+            
+            // Show modal
+            appointmentModal.classList.add('active');
+        }
+        
+        // Handle login
+        function handleLogin(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+            
+            // Simple validation
+            if (!email || !password) {
+                showToast('Please fill in all fields', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const loginBtnText = document.getElementById('login-btn-text');
+            const loginSpinner = document.getElementById('login-spinner');
+            loginBtnText.style.display = 'none';
+            loginSpinner.style.display = 'inline-block';
+            
+            // Simulate API call
+            setTimeout(() => {
+                const user = users.find(u => u.email === email && u.password === password);
+                
+                if (user) {
+                    currentUser = user;
+                    localStorage.setItem('petCareUserId', user.id);
+                    showDashboard();
+                    loadDashboardData();
+                    loginModal.classList.remove('active');
+                    showToast('Login successful', 'success');
+                } else {
+                    showToast('Invalid email or password', 'error');
+                }
+                
+                // Reset loading state
+                loginBtnText.style.display = 'inline-block';
+                loginSpinner.style.display = 'none';
+            }, 1000);
+        }
+        
+        // Handle registration
+        function handleRegister(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('register-name').value.trim();
+            const email = document.getElementById('register-email').value.trim();
+            const phone = document.getElementById('register-phone').value.trim();
+            const password = document.getElementById('register-password').value;
+            const confirmPassword = document.getElementById('register-confirm-password').value;
+            
+            // Validation
+            if (!name || !email || !password || !confirmPassword) {
+                showToast('Please fill in all required fields', 'error');
+                return;
+            }
+            
+            if (password.length < 6) {
+                showToast('Password must be at least 6 characters', 'error');
+                return;
+            }
+            
+            if (password !== confirmPassword) {
+                showToast('Passwords do not match', 'error');
+                return;
+            }
+            
+            // Check if email already exists
+            if (users.some(user => user.email === email)) {
+                showToast('Email already registered', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const registerBtnText = document.getElementById('register-btn-text');
+            const registerSpinner = document.getElementById('register-spinner');
+            registerBtnText.style.display = 'none';
+            registerSpinner.style.display = 'inline-block';
+            
+            // Create new user
+            setTimeout(() => {
+                const newUser = {
+                    id: generateId(),
+                    name,
+                    email,
+                    password,
+                    phone: phone || undefined,
+                    address: undefined
+                };
+                
+                users.push(newUser);
+                saveToLocalStorage();
+                
+                // Auto-login the new user
+                currentUser = newUser;
+                localStorage.setItem('petCareUserId', newUser.id);
+                showDashboard();
+                loadDashboardData();
+                loginModal.classList.remove('active');
+                showToast('Registration successful!', 'success');
+                
+                // Reset loading state
+                registerBtnText.style.display = 'inline-block';
+                registerSpinner.style.display = 'none';
+            }, 1000);
+        }
+        
+        // Handle pet form submission
+        function handlePetFormSubmit(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('pet-name').value.trim();
+            const type = document.getElementById('pet-type').value;
+            const breed = document.getElementById('pet-breed').value.trim();
+            const age = document.getElementById('pet-age').value;
+            const isEdit = petForm.dataset.editId;
+            
+            // Validation
+            if (!name) {
+                showToast('Please enter pet name', 'error');
+                return;
+            }
+            
+            if (!type) {
+                showToast('Please select pet type', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const petBtnText = document.getElementById('pet-btn-text');
+            const petSpinner = document.getElementById('pet-spinner');
+            petBtnText.style.display = 'none';
+            petSpinner.style.display = 'inline-block';
+            
+            // Add/update pet
+            setTimeout(() => {
+                if (isEdit) {
+                    // Update existing pet
+                    const petIndex = pets.findIndex(p => p.id === petForm.dataset.editId);
+                    if (petIndex !== -1) {
+                        pets[petIndex] = {
+                            ...pets[petIndex],
+                            name,
+                            type,
+                            breed: breed || undefined,
+                            age: age ? parseFloat(age) : undefined
+                        };
+                        showToast('Pet updated successfully', 'success');
+                    }
+                } else {
+                    // Add new pet
+                    const newPet = {
+                        id: generateId(),
+                        ownerId: currentUser.id,
+                        name,
+                        type,
+                        breed: breed || undefined,
+                        age: age ? parseFloat(age) : undefined
+                    };
+                    pets.push(newPet);
+                    showToast('Pet added successfully', 'success');
+                }
+                
+                saveToLocalStorage();
+                
+                // Close modal and refresh pets list
+                petModal.classList.remove('active');
+                loadPets();
+                loadDashboardData();
+                
+                // Reset loading state
+                petBtnText.style.display = 'inline-block';
+                petSpinner.style.display = 'none';
+            }, 800);
+        }
+        
+        // Handle appointment form submission
+        function handleAppointmentFormSubmit(e) {
+            e.preventDefault();
+            
+            const petId = document.getElementById('appointment-pet').value;
+            const date = document.getElementById('appointment-date').value;
+            const time = document.getElementById('appointment-time').value;
+            const purpose = document.getElementById('appointment-purpose').value;
+            const notes = document.getElementById('appointment-notes').value.trim();
+            const isEdit = appointmentForm.dataset.editId;
+            
+            // Validation
+            if (!petId || !date || !time || !purpose) {
+                showToast('Please fill in all required fields', 'error');
+                return;
+            }
+            
+            // Check if time is within business hours (8AM-5PM)
+            const hour = parseInt(time.split(':')[0]);
+            if (hour < 8 || hour >= 17) {
+                showToast('Please select a time between 8AM and 5PM', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const appointmentBtnText = document.getElementById('appointment-btn-text');
+            const appointmentSpinner = document.getElementById('appointment-spinner');
+            appointmentBtnText.style.display = 'none';
+            appointmentSpinner.style.display = 'inline-block';
+            
+            // Add/update appointment
+            setTimeout(() => {
+                if (isEdit) {
+                    // Update existing appointment
+                    const apptIndex = appointments.findIndex(a => a.id === appointmentForm.dataset.editId);
+                    if (apptIndex !== -1) {
+                        appointments[apptIndex] = {
+                            ...appointments[apptIndex],
+                            petId,
+                            date,
+                            time,
+                            purpose,
+                            notes: notes || undefined
+                        };
+                        showToast('Appointment updated successfully', 'success');
+                    }
+                } else {
+                    // Add new appointment
+                    const newAppointment = {
+                        id: generateId(),
+                        ownerId: currentUser.id,
+                        petId,
+                        date,
+                        time,
+                        purpose,
+                        notes: notes || undefined,
+                        status: 'upcoming'
+                    };
+                    appointments.push(newAppointment);
+                    showToast('Appointment booked successfully', 'success');
+                }
+                
+                saveToLocalStorage();
+                
+                // Close modal and refresh appointments list
+                appointmentModal.classList.remove('active');
+                loadAppointments();
+                loadDashboardData();
+                
+                // Reset loading state
+                appointmentBtnText.style.display = 'inline-block';
+                appointmentSpinner.style.display = 'none';
+            }, 800);
+        }
+        
+        // Handle profile form submission
+        function handleProfileFormSubmit(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('profile-name-input').value.trim();
+            const email = document.getElementById('profile-email-input').value.trim();
+            const phone = document.getElementById('profile-phone-input').value.trim();
+            const address = document.getElementById('profile-address-input').value.trim();
+            
+            // Validation
+            if (!name || !email) {
+                showToast('Please fill in all required fields', 'error');
+                return;
+            }
+            
+            // Show loading state
+            const profileBtnText = document.getElementById('profile-btn-text');
+            const profileSpinner = document.getElementById('profile-spinner');
+            profileBtnText.style.display = 'none';
+            profileSpinner.style.display = 'inline-block';
+            
+            // Update user profile
+            setTimeout(() => {
+                currentUser.name = name;
+                currentUser.email = email;
+                currentUser.phone = phone || undefined;
+                currentUser.address = address || undefined;
+                
+                // Update in users array
+                const userIndex = users.findIndex(u => u.id === currentUser.id);
+                if (userIndex !== -1) {
+                    users[userIndex] = currentUser;
+                    saveToLocalStorage();
+                }
+                
+                loadDashboardData();
+                showToast('Profile updated successfully', 'success');
+                
+                // Reset loading state
+                profileBtnText.style.display = 'inline-block';
+                profileSpinner.style.display = 'none';
+            }, 800);
+        }
+        
+        // Edit pet
+        function editPet(petId) {
+            const pet = pets.find(p => p.id === petId);
+            if (!pet) return;
+            
+            document.getElementById('pet-name').value = pet.name;
+            document.getElementById('pet-type').value = pet.type;
+            document.getElementById('pet-breed').value = pet.breed || '';
+            document.getElementById('pet-age').value = pet.age || '';
+            
+            // Change modal title and button text
+            document.querySelector('#pet-modal .modal-header h3').textContent = 'Edit Pet';
+            document.getElementById('pet-btn-text').textContent = 'Update';
+            
+            // Store pet ID in form for reference
+            petForm.dataset.editId = petId;
+            
+            petModal.classList.add('active');
+        }
+        
+        // Delete pet
+        function deletePet(petId) {
+            if (!confirm('Are you sure you want to delete this pet? All related appointments and vaccinations will also be deleted.')) {
+                return;
+            }
+            
+            // Delete pet
+            pets = pets.filter(p => p.id !== petId);
+            
+            // Delete related appointments
+            appointments = appointments.filter(appt => appt.petId !== petId);
+            
+            // Delete related vaccinations
+            vaccinations = vaccinations.filter(vacc => vacc.petId !== petId);
+            
+            saveToLocalStorage();
+            loadPets();
+            loadAppointments();
+            loadVaccinations();
+            loadDashboardData();
+            showToast('Pet deleted successfully', 'success');
+        }
+        
+        // Edit appointment
+        function editAppointment(appointmentId) {
+            const appointment = appointments.find(a => a.id === appointmentId);
+            if (!appointment) return;
+            
+            document.getElementById('appointment-pet').value = appointment.petId;
+            document.getElementById('appointment-date').value = appointment.date;
+            document.getElementById('appointment-time').value = appointment.time;
+            document.getElementById('appointment-purpose').value = appointment.purpose;
+            document.getElementById('appointment-notes').value = appointment.notes || '';
+            
+            // Change modal title and button text
+            document.querySelector('#appointment-modal .modal-header h3').textContent = 'Edit Appointment';
+            document.getElementById('appointment-btn-text').textContent = 'Update Appointment';
+            
+            // Store appointment ID in form for reference
+            appointmentForm.dataset.editId = appointmentId;
+            
+            // Populate pet dropdown
+            appointmentPetSelect.innerHTML = '<option value="">Select Pet</option>';
+            const userPets = pets.filter(pet => pet.ownerId === currentUser.id);
+            userPets.forEach(pet => {
+                const option = document.createElement('option');
+                option.value = pet.id;
+                option.textContent = pet.name;
+                if (pet.id === appointment.petId) {
+                    option.selected = true;
+                }
+                appointmentPetSelect.appendChild(option);
+            });
+            
+            appointmentModal.classList.add('active');
+        }
+        
+        // Delete appointment
+        function deleteAppointment(appointmentId) {
+            if (!confirm('Are you sure you want to delete this appointment?')) {
+                return;
+            }
+            
+            appointments = appointments.filter(a => a.id !== appointmentId);
+            saveToLocalStorage();
+            loadAppointments();
+            loadDashboardData();
+            showToast('Appointment deleted successfully', 'success');
+        }
+        
+        // Logout
+        function logout() {
+            currentUser = null;
+            localStorage.removeItem('petCareUserId');
+            
+            // Show main site
+            document.querySelector('header').style.display = 'block';
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'block';
+            });
+            document.querySelector('footer').style.display = 'block';
+            dashboard.style.display = 'none';
+            
+            showToast('Logged out successfully', 'success');
+        }
+        
+        // Show toast notification
+        function showToast(message, type = 'info') {
+            toast.textContent = message;
+            toast.className = 'toast';
+            toast.classList.add(type);
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Helper functions
+        function generateId() {
+            return Date.now().toString(36) + Math.random().toString(36).substr(2);
+        }
+        
+        function formatDate(dateString) {
+            const options = { year: 'numeric', month: 'short', day: 'numeric' };
+            return new Date(dateString).toLocaleDateString(undefined, options);
+        }
+        
+        function formatTime(timeString) {
+            const [hours, minutes] = timeString.split(':');
+            const hour = parseInt(hours);
+            const ampm = hour >= 12 ? 'PM' : 'AM';
+            const displayHour = hour % 12 || 12;
+            return `${displayHour}:${minutes} ${ampm}`;
+        }
+        
+        function getAppointmentPurpose(purpose) {
+            const purposes = {
+                'checkup': 'Checkup',
+                'vaccination': 'Vaccination',
+                'grooming': 'Grooming',
+                'emergency': 'Emergency',
+                'other': 'Other'
+            };
+            return purposes[purpose] || purpose;
+        }
+        
+        function getAppointmentStatus(date) {
+            const appointmentDate = new Date(date);
+            const today = new Date();
+            
+            if (appointmentDate < today) {
+                return 'Completed';
+            } else if (appointmentDate.toDateString() === today.toDateString()) {
+                return 'Today';
+            } else {
+                return 'Upcoming';
+            }
+        }
+        
+        function getAppointmentStatusClass(date) {
+            const status = getAppointmentStatus(date);
+            return status === 'Completed' ? 'badge-success' : status === 'Today' ? 'badge-primary' : 'badge-warning';
+        }
+        
+        function getVaccinationStatus(dueDate) {
+            const due = new Date(dueDate);
+            const today = new Date();
+            
+            if (due < today) {
+                return 'Due';
+            } else if (due.toDateString() === today.toDateString()) {
+                return 'Due Today';
+            } else {
+                return 'Upcoming';
+            }
+        }
+        
+        function getVaccinationStatusClass(dueDate) {
+            const status = getVaccinationStatus(dueDate);
+            return status === 'Due' ? 'badge-primary' : status === 'Due Today' ? 'badge-primary' : 'badge-success';
+        }
+        
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+        document.getElementById("petForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+
+  fetch("insert_pet.php", {
+    method: "POST",
+    body: formData
+  })
+  .then(res => res.text())
+  .then(data => alert(data))
+  .catch(err => console.error(err));
+});
+
+        // Initialize the app
+        init();
+    </script>
+
+</body>
+</html>
