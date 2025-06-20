@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Custom Color Palette */
+    --orange: #ff7300;
+    --cream: #fff5e1;
+    --teal: #3aafa9;
+    --charcoal: #111318;
+    --grey: #c0c0c0;
+    --white: #ffffff;
+    --danger: #dc3545;
+    --success: #28a745;
+
+    /* shadcn/ui variables mapped to custom palette */
+    --background: var(--cream);
+    --foreground: var(--charcoal);
+    --card: var(--white);
+    --card-foreground: var(--charcoal);
+    --popover: var(--white);
+    --popover-foreground: var(--charcoal);
+    --primary: var(--orange);
+    --primary-foreground: var(--white);
+    --secondary: var(--teal);
+    --secondary-foreground: var(--white);
+    --muted: var(--grey);
+    --muted-foreground: var(--charcoal);
+    --accent: var(--cream);
+    --accent-foreground: var(--charcoal);
+    --destructive: var(--danger);
+    --destructive-foreground: var(--white);
+    --border: var(--grey);
+    --input: var(--white);
+    --ring: var(--orange);
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: var(--charcoal);
+    --foreground: var(--cream);
+    --card: #1a1a1a;
+    --card-foreground: var(--cream);
+    --popover: #1a1a1a;
+    --popover-foreground: var(--cream);
+    --primary: var(--orange);
+    --primary-foreground: var(--white);
+    --secondary: var(--teal);
+    --secondary-foreground: var(--white);
+    --muted: #2a2a2a;
+    --muted-foreground: var(--grey);
+    --accent: #2a2a2a;
+    --accent-foreground: var(--cream);
+    --destructive: var(--danger);
+    --destructive-foreground: var(--white);
+    --border: #2a2a2a;
+    --input: #2a2a2a;
+    --ring: var(--orange);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Custom utility classes */
+  .text-orange {
+    color: var(--orange);
+  }
+
+  .bg-orange {
+    background-color: var(--orange);
+  }
+
+  .text-teal {
+    color: var(--teal);
+  }
+
+  .bg-teal {
+    background-color: var(--teal);
+  }
+
+  .text-cream {
+    color: var(--cream);
+  }
+
+  .bg-cream {
+    background-color: var(--cream);
+  }
+
+  .border-orange {
+    border-color: var(--orange);
+  }
+
+  .border-teal {
+    border-color: var(--teal);
+  }
+
+  /* PWA specific styles */
+  .pwa-install-prompt {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: var(--orange);
+    color: var(--white);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+
+  /* Loading animations - Fixed CSS error */
+  .loading-spinner {
+    animation: spin 1s linear infinite;
+    border-radius: 50%;
+    border: 2px solid #d1d5db;
+    border-top-color: var(--orange);
+    width: 24px;
+    height: 24px;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Offline indicator */
+  .offline-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--danger);
+    color: var(--white);
+    text-align: center;
+    padding: 8px;
+    z-index: 9999;
+  }
+}
+
+@layer utilities {
+  /* Mobile optimizations */
+  .mobile-padding {
+    @apply px-4;
+  }
+
+  .mobile-text {
+    @apply text-sm;
+  }
+
+  /* Health status indicators */
+  .health-excellent {
+    @apply bg-green-100 text-green-800 border-green-200;
+  }
+
+  .health-good {
+    @apply bg-blue-100 text-blue-800 border-blue-200;
+  }
+
+  .health-fair {
+    @apply bg-yellow-100 text-yellow-800 border-yellow-200;
+  }
+
+  .health-poor {
+    @apply bg-red-100 text-red-800 border-red-200;
+  }
+
+  .health-critical {
+    @apply bg-red-200 text-red-900 border-red-300;
+  }
+}
